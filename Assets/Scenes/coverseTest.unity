@@ -2516,6 +2516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 438103214}
   - component: {fileID: 438103213}
+  - component: {fileID: 438103215}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -2560,6 +2561,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &438103215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438103212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad54c40292494a6dab46528c49c84a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterIcon: {fileID: 1854584860}
+  DialoguePanel: {fileID: 1795466499}
+  characterName: {fileID: 2102316501}
+  dialogueArea: {fileID: 1812259836}
+  playerMovementScript: {fileID: 1808512740}
+  choicePanel: {fileID: 1217400592}
+  isDialogueActive: 0
+  typingSpeed: 0.1
+  fadePanel: {fileID: 1176231479}
+  fadeDuration: 0.5
 --- !u!1 &444061341
 GameObject:
   m_ObjectHideFlags: 0

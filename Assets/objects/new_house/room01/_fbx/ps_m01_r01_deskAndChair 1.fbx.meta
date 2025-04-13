@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: r01_books
+    second: {fileID: 2100000, guid: 3a99390768dfe436a884edf52056ac7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: r01_frn01
     second: {fileID: 2100000, guid: c3a5a9f376f5340bf83e0025a36b1078, type: 2}
   - first:
@@ -14,6 +19,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: r01_frn02
     second: {fileID: 2100000, guid: 07c6c590b4acf451c8dafc74fd5b0f9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: r01_frn03
+    second: {fileID: 2100000, guid: 3269316f91ada4e0a9cf652da54eb60f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

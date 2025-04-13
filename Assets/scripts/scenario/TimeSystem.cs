@@ -54,7 +54,7 @@ public class TimeSystem : MonoBehaviour
     // 🏁 Handles the end-of-day event
     public void EndDay()
     {
-        DialogueManager.Instance.StartDialogue(endOfDayDialogue);
+        TimeDialogue.Instance.StartDialogue(endOfDayDialogue);
         character.SetActive(true);
         foreach (GameObject dialogue in otherdialogue)
         {
